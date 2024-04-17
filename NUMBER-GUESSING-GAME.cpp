@@ -13,7 +13,7 @@ int main()
     cout << "\t* You'll have limited choices based on the level you choose." << endl;
     cout << "\t  - Click 1 for easy!\t" << endl;
     cout << "\t  - Click 2 for medium!\t" << endl;
-    cout << "\t  - Click 3 for hard\t" << endl
+    cout << "\t  - Click 3 for hard!\t" << endl
          << endl;
 
     cout << "\t\t\t<------Good Luck!------>" << endl;
@@ -106,7 +106,7 @@ int main()
 
         int choiceLeft = 7;
 
-        for (int i = 1; i <= 10; i++)
+        for (int i = 1; i <= 7; i++)
         {
             cout << "Enter a number :";
             cin >> userChoice;
@@ -148,7 +148,7 @@ int main()
 
         int choiceLeft = 5;
 
-        for (int i = 1; i <= 10; i++)
+        for (int i = 1; i <= 5; i++)
         {
             cout << "Enter a number :";
             cin >> userChoice;
