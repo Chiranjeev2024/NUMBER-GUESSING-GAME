@@ -4,12 +4,6 @@ using namespace std;
 
 int main(){
 
-    cout << "\nEnter the difficulty level: \n";
-        cout << "1 for easy!\t";
-        cout << "2 for medium!\t";
-        cout << "3 for difficult!\t";
-        cout << "0 for ending the game!\n" << endl;
-
     cout<<"\t\t\t* WELCOME TO THE NUMBER GUESSING GAME *"<<endl<<endl;
 
     cout<<"  # RULE BOOK"<<endl;
@@ -20,6 +14,46 @@ int main(){
     cout << "\t  - 3 for difficult!\t"<< endl<<endl;
 
     cout<<"\t\t\t<------Good Luck!------>"<<endl;
+
+    cout<<"Choose the difficulty level ";
+
+    int difficultyChoice;
+
+    string level;
+
+    while (difficultyChoice != 1 && difficultyChoice != 2 && difficultyChoice != 3){
+
+        cin>>difficultyChoice;
+        cout<<endl;
+
+        switch (difficultyChoice)
+        {
+        case 1:
+            level = "Easy";
+            break;
+
+        case 2:
+            level = "Medum";
+            break;
+
+        case 3:
+            level = "Hard";
+            break;
+        
+        default:
+            cout<<"choose the correct level"<<endl;
+            break;
+        }
+    }
+    
+    cout<<"\t\t\t Your choiced level = " + level <<endl;
+    
+    
+    
+    
+    return 0;
+
+
 
 
 
