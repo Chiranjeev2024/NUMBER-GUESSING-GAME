@@ -13,7 +13,7 @@ int main()
     cout << "\t* You'll have limited choices based on the level you choose." << endl;
     cout << "\t  - Click 1 for easy!\t" << endl;
     cout << "\t  - Click 2 for medium!\t" << endl;
-    cout << "\t  - Click 3 for difficult!\t" << endl
+    cout << "\t  - Click 3 for hard\t" << endl
          << endl;
 
     cout << "\t\t\t<------Good Luck!------>" << endl;
